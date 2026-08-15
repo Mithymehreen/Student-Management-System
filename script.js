@@ -11,7 +11,7 @@ function getProducts() {
 function showProducts() {
     const products = getProducts();
 
-    console.log("\n========== PRODUCT MENU ==========");
+    console.log("\n========== PRODUCT MENU ==========")
 
     products.forEach(product => {
         console.log(
